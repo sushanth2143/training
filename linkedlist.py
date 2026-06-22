@@ -29,7 +29,9 @@ class LinkedList:
             print(itr.data, end="->")
             itr = itr.next
 
-    
+    def middle(self):
+        slow = self
+
 
 
 l1 = LinkedList()
