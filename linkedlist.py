@@ -28,6 +28,10 @@ class LinkedList:
         while itr:
             print(itr.data, end="->")
             itr = itr.next
+
+    
+
+
 l1 = LinkedList()
 l1.add_end(50)
 l1.add_end(150)
@@ -38,3 +42,4 @@ l1.add_end(4)
 l1.add_beg(68)
 l1.add_end(999)
 l1.display()
+
